@@ -1,0 +1,267 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  /* header */
+}
+
+body nav {
+  font-size: 2rem;
+}
+
+body .navbar-toggler {
+  font-size: 3rem;
+}
+
+body .navbar-brand {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+body header {
+  font-size: 2rem;
+}
+
+body header .carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+body header .carousel-img-one {
+  background-image: url("/img/carousel/main-carousel-1.jpg");
+}
+
+body header .carousel-img-two {
+  background-image: url("../img/carousel/main-carousel-2.jpg");
+}
+
+body header .carousel-img-three {
+  background-image: url("../img/carousel/main-carousel-3.jpg");
+}
+
+@media (min-width: 1400px) {
+  body header .carousel-item {
+    height: 600px;
+  }
+  body header .carousel-img-one {
+    background-image: url("/img/carousel/main-carousel-1-hq.jpg");
+  }
+  body header .carousel-img-two {
+    background-image: url("/img/carousel/main-carousel-2-hq.jpg");
+  }
+  body header .carousel-img-three {
+    background-image: url("/img/carousel/main-carousel-3-hq.jpg");
+  }
+}
+
+body main .home-boxes {
+  padding: 5em 0;
+}
+
+body main .home-boxes i {
+  font-size: 4rem;
+}
+
+body main .home-boxes h3 {
+  font-size: 2.6rem;
+}
+
+body main .home-passion {
+  position: relative;
+  background-image: url("/img/main/VW Golf.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  height: 350px;
+}
+
+body main .home-passion.hero-shadow {
+  position: absolute;
+}
+
+body main .home-history h3 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+body main .top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+body main .top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.6rem;
+  height: 100%;
+}
+
+body main .aboutus-hero {
+  background-image: url("/img/about/highway.jpg");
+  background-position: bottom;
+}
+
+body main .services-hero {
+  background-image: url("/img/services/muscleCar.jpg");
+  background-position: 0 75%;
+}
+
+body main .aboutus-bottom {
+  background-color: #f8f8f8;
+}
+
+body main .aboutus-bottom .aboutus-text-left {
+  text-align: left;
+}
+
+body main .aboutus-bottom .aboutus-text-right {
+  text-align: right;
+}
+
+body main .aboutus-bottom .aboutus-img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body main .aboutus-bottom .container {
+  padding: 2em 0.5em;
+}
+
+body main .services-pricing .services-hero-box {
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  height: 300px;
+}
+
+body main .services-pricing .services-hero-box p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+body main .services-pricing .box-one {
+  background-image: url("/img/services/engine.jpg");
+}
+
+body main .services-pricing .box-two {
+  background-image: url("/img/services/visual.jpg");
+}
+
+body main .services-pricing .box-three {
+  background-image: url("/img/services/car-audio.jpg");
+}
+
+body main .services-pricing .box-four {
+  background-image: url("/img/services/allinone.jpg");
+}
+
+body main .projects-hero {
+  background-image: url("/img/projects/project-hero.jpg");
+  background-position: center;
+}
+
+body main .projects-cards img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body main .projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+body main .contact-hero {
+  background-image: url("/img/contact/contact-hero.jpg");
+  background-position: center;
+}
+
+body main .contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+body main .contact-logo {
+  font-size: 3rem;
+}
+
+body main .contact input, body main .contact select, body main .contact textarea {
+  font-size: 1.6rem;
+}
+
+body main .contact .btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  body main .aboutus-bottom.container {
+    padding: 0;
+  }
+  body main .aboutus-shadow {
+    -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.6);
+            box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.6);
+  }
+  body main .aboutus-text {
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  body main .aboutus-text-left {
+    text-align: right;
+    padding-right: 2em;
+  }
+  body main .aboutus-text-right {
+    text-align: right;
+  }
+  body main .aboutus-img {
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+}
+/*# sourceMappingURL=main.css.map */
